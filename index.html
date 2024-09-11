@@ -13,9 +13,7 @@
             let a = prompt("Enter your age for voting:");
             a = Number.parseInt(a);
 
-            if (isNaN(a)) {
-                alert("Please enter a valid number.");
-            } else if (a < 18) {
+         if (a < 18) {
                 alert("You are not eligible to vote.");
             } else if (a >= 18 && a <= 35) {
                 alert("Wow! Most welcome.");
