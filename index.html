@@ -13,15 +13,15 @@
             let a = prompt("Enter your age for voting:");
             a = Number.parseInt(a);
 
-         if (a < 18) {
+            if (a < 18) {
                 alert("You are not eligible to vote.");
             } else if (a >= 18 && a <= 35) {
                 alert("Wow! Most welcome.");
             } else {
                 alert("Not qualified for the criteria.");
             }
+            console.log(a);
 
-            
             let months;
             switch (new Date().getMonth()) {
                 case 0:
